@@ -1,0 +1,13 @@
+.estate-listings {
+    padding: 80px 11vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 72px;
+}
+
+.sect-footer {
+    background-image: url('../assets/vectors/clouds.svg');
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}

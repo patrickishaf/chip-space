@@ -1,0 +1,16 @@
+.dropdown-item {
+    width: 100%;
+    padding: 13px 16px;
+    z-index: 2;
+    background-color: var(--color-btn-bg-dark);
+    border-bottom-style: solid;
+}
+
+.dropdown-content {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdown-content span {
+    margin-left: 8px;
+}

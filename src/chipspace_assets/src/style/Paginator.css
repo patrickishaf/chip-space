@@ -1,0 +1,10 @@
+.paginator {
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.paginator * {
+    margin-left: 6px;
+    margin-right: 6px;
+}

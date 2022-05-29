@@ -1,0 +1,22 @@
+.wallet-btn {
+    height: 88px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 24px;
+}
+
+.wallet-btn-icon {
+    width: 61px;
+    height: 56px;
+}
+
+.wallet-btn-spacing {
+    width: 40px;
+}
+
+.wallet-name {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: var(--color-text-primary);
+}

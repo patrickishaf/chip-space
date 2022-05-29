@@ -1,0 +1,46 @@
+.details-hero {
+    background-image: url('../assets/vectors/clouds.svg');
+    background-position-y: top;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+
+.footer-section {
+    background: url('../assets/vectors/clouds.svg');
+    background-position-y: bottom;
+}
+
+.listing-body {
+    padding: 0px 11vw;
+    min-width: 39%;
+}
+
+.listing-details {
+    padding-bottom: 0;
+}
+
+.listing-desc-main {
+    padding: 11vw;
+}
+
+.listing-metadata-section {
+    width: 51%;
+    margin-top: 56px;
+}
+
+.listing-section-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-btn-bg-dark);
+    border-bottom-width: 1px;
+}
+
+.listing-subheader {
+    font-size: 2.62rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    margin: 72px 0 0 0;
+}

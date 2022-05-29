@@ -1,0 +1,21 @@
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#header-leading {
+    height: 52px;
+    width: 52px;
+}
+
+#header-title {
+    font-family: 'Unispace';
+    display: inline;
+    font-size: 2rem;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+#header-spacing {
+    width: 24px;
+}

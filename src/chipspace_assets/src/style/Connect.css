@@ -1,0 +1,15 @@
+#button-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-icon-spacing {
+    width: 10px;
+}
+
+#connect-icon {
+    height: 28px;
+    width: 28px;
+}

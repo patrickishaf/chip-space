@@ -1,0 +1,29 @@
+.search-entry-field {
+    border: none;
+    background-color: inherit;
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    color: var(--color-text-primary);
+    padding-left: 8px;
+    margin-left: 8px;
+    font-size: 1.4rem;
+}
+
+.search-entry-field:focus {
+    border: none;
+}
+
+.search-form {
+    align-items: center;
+    height: 100%;
+    width: 30vw;
+}
+
+.search-icon-active {
+    height: 68px;
+    border: solid 1px var(--color-btn-bg-light);
+    border-radius: 6px;
+    padding: 8px 16px;
+    background-color: var(--color-site-background);
+}

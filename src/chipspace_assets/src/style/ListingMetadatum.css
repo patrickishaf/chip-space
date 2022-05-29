@@ -1,0 +1,24 @@
+.listing-metadatum {
+    border-bottom: 1px solid var(--color-btn-bg-dark);
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.metadatum-key {
+    color: rgba(238, 238, 238, 0.3);
+    font-size: 1.13rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.25px;
+}
+
+.metadatum-value {
+    width: 50%;
+    text-align: start;
+    font-size: 1.13rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.25px;
+    overflow-x: hidden;
+}

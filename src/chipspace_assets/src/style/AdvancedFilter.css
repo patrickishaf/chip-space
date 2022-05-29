@@ -1,0 +1,22 @@
+.advanced-filter {
+    background-color: rgb(202, 174, 249, 0.7);
+    padding: 2.7vw;
+    margin: 57px 20vw 40px 20vw;
+    border-radius: 6px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 52px 52px;
+    grid-gap: 32px;
+}
+
+.advanced-filter-spacing {
+    height: 32px;
+}
+
+.filter-btn-row {
+    justify-content: space-between;
+}
+
+.filter-btn-row button {
+    flex-grow: 1;
+    flex-basis: 0;
+}

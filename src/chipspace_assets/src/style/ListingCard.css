@@ -1,0 +1,82 @@
+.center {
+    max-height: 60%;
+}
+
+.listing-card {
+    width: 18vw;
+    height: 475px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: var(--color-action-primary);
+    background-color: rgba(132, 66, 240, 0.1);
+    position: relative;
+}
+
+.listing-description {
+    padding: 1.6rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.listing-image {
+    max-width: 18vw;
+    max-height: 100%;
+    overflow-inline: auto;
+}
+
+.listing-name {
+    font-size: 1.38rem;
+    font-weight: 700;
+    line-height: 1.69rem;
+    letter-spacing: 0.009rem;
+    margin-bottom: 0.5rem;
+}
+
+.price-key {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.015rem;
+    color: var(--color-text-body);
+}
+
+.price-row {
+    align-items: center;
+}
+
+.price-value {
+    align-items: center;
+}
+
+.icon-token {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.rates {
+    line-height: 1.625rem;
+    letter-spacing: 0.019rem;
+    color: var(--color-action-primary);
+}
+
+.rental-key {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.0125rem;
+    color: var(--color-text-body-secondary);
+}
+
+.rental-row, .price-row {
+    justify-content: space-between;
+}
+
+.rental-value {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.0125rem;
+    text-align: end;
+    color: var(--color-text-body);
+}

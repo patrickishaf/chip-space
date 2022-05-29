@@ -1,0 +1,43 @@
+#button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 190px;
+    margin-top: 48px;
+}
+
+#hero {
+    background-image: url('../assets/vectors/galaxy.svg');
+    background-repeat: none;
+    background-position-x: right;
+    text-align: center;
+}
+
+#hero-img {
+    width: 303px;
+    height: 328px;
+    margin-top: 12px;
+}
+
+#hero-title {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: -2.1px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--color-text-body)
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.row-button {
+    margin: 0 12px;
+}

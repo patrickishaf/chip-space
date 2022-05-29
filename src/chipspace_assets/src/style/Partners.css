@@ -1,0 +1,23 @@
+#partners-header {
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 3.19rem;
+}
+
+#partners-section {
+    background: url('../assets/vectors/clouds.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+    padding-top: 108px;
+    text-align: center;
+}
+
+.partner-image {
+    height: 168px;
+}
+
+#partner-images {
+    padding: 76px 11.6vw;
+    justify-content: space-between;
+}
+

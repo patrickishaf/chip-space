@@ -1,0 +1,33 @@
+.close-dialog-icon {
+    align-self: flex-end;
+    padding: 1.12rem;
+}
+
+.dialog-content {
+    justify-content: space-between;
+    height: 212px;
+    margin: 56px 64px;
+}
+
+.dialog-title {
+    display: inline-block;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    line-height: 3.19rem;
+}
+
+.wallet-selection-dialog {
+    position: fixed;
+    top: 231px;
+    left: 300px;
+    right: 300px;
+    z-index: 2;
+    background-color: var(--color-card-background);
+    border-radius: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: max-content;
+    min-height: max-content;
+    padding-bottom: 42px;
+}

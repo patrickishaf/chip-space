@@ -1,19 +1,9 @@
-import { chipspace } from "../../declarations/chipspace";
+import React from "react";
+import { createRoot } from "react-dom";
+import App from "./App";
 
-document.querySelector("form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const button = e.target.querySelector("button");
+const reactRoot = createRoot(document.getElementById('react-root'));
 
-  const name = document.getElementById("name").value.toString();
-
-  button.setAttribute("disabled", true);
-
-  // Interact with foo actor, calling the greet method
-  const greeting = await chipspace.greet(name);
-
-  button.removeAttribute("disabled");
-
-  document.getElementById("greeting").innerText = greeting;
-
-  return false;
-});
+reactRoot.render(
+  <App/>
+);

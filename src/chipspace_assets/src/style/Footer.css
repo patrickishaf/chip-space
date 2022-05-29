@@ -1,0 +1,37 @@
+.copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.016rem;
+    padding-right: 80px;
+}
+
+.footer {
+    justify-content: space-between;
+    margin-top: 268px;
+    margin-bottom: 96px;
+    margin-left: 40px;
+}
+
+.footer-link {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.016rem;
+    color: var(--color-text-body);
+    padding-right: 32px;
+}
+
+.footer-link:hover {
+    color: var(--color-action-primary);
+}
+
+.social-icon {
+    height: 32px;
+    margin-left: 16px;
+}
+
+.social-icons {
+    align-items: center;
+    margin-right: 24px;
+}

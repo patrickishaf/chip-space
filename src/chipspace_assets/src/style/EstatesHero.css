@@ -1,0 +1,11 @@
+.btn-matches {
+    padding: 24px 90px;
+    margin-bottom: 66px;
+}
+
+#estate-hero {
+    background-image: url('../assets/vectors/estates-bg.svg');
+    background-repeat: none;
+    background-position-x: right;
+    text-align: center;
+}

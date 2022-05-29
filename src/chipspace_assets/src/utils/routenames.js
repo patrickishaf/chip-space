@@ -1,0 +1,12 @@
+export const HOME = '/';
+export const ESTATES = '/estates';
+export const LISTING_DETAILS = '/listing-details';
+export const COLLECTIBLES = '/collectibles';
+export const OTHERS = '/others';
+export const ABOUT_US = '/about-us';
+export const HELP = 'help';
+export const SUB_ESTATE = 'sub-estate';
+export const SUB_COLLECT = 'sub-collect';
+export const SUB_OTHERS = 'sub-others';
+export const SUB_ABOUT = 'sub-about';
+export const SUB_HELP = 'sub-help';
