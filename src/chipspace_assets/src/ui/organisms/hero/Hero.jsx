@@ -5,15 +5,17 @@ import Nav from "../../molecules/nav/Nav";
 import WalletSelectionDialog from "../../molecules/wallet-selection-dialog/WalletSelectionDialog";
 import * as RouteNames from '../../../utils/routenames';
 import { Link } from "react-router-dom";
+import logIt from '../../../ethereum';
 
 function Hero() {
-    const [shown, setShown] = useState(false);
+    const [showDialog, setShowDialog] = useState(false);
+    
     return (
         <div id="hero">
-            <Nav handleSelection={() => setShown((prevValue) => !prevValue)}/>
+            <Nav handleSelection={() => setShowDialog((prevValue) => !prevValue)}/>
             <img id="hero-img" src={astronaut} alt="" />
             {
-                shown && <WalletSelectionDialog handleClick={() => setShown((prevValue) => !prevValue)}/>
+                showDialog && <WalletSelectionDialog handleClick={() => setShowDialog((prevValue) => !prevValue)}/>
             }
             <h1 id="hero-title">Rent & Lend NFTs in the Metaverse</h1>
             <div id="button-row">
@@ -23,7 +25,7 @@ function Hero() {
                 <Link to={RouteNames.COLLECTIBLES}>
                     <button className="row-button">Collectibles</button>
                 </Link>
-                <button className="row-button">Others</button>
+                <button className="row-button" onClick={logIt}>Others</button>
             </div>
         </div>
     );

@@ -1,12 +1,12 @@
 import React from "react";
 import '../../../style/WalletButton.css';
 
-function WalletButton(props) {
+function WalletButton({ name, logo, onClick }) {
     return (
-        <button className="row wallet-btn">
-            <img className="wallet-btn-icon" src={props.logo} alt="Blockchain Wallet type" />
+        <button onClick={onClick} className="row wallet-btn">
+            <img className="wallet-btn-icon" src={logo} alt="Blockchain Wallet type" />
             <div className="wallet-btn-spacing" />
-            <p className="wallet-name">{props.name}</p>
+            <p className="wallet-name">{name}</p>
         </button>
     );
 }
